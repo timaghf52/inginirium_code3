@@ -1,0 +1,15 @@
+def plus(a,b):
+  ans=a+b
+  return ans
+def minus(a,b):
+  ans=a-b
+  return ans
+o=input()
+a,b = input().split()
+a,b=int(a),int(b)
+if o== "+":
+  print(plus(a,b))
+elif O=="-":
+  print(minus(a,b))
+else:
+  print("иди отсюдова")
